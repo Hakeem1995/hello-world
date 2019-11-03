@@ -12,9 +12,10 @@ alert  (" the third angle is " + angle3);
 }
 
 function YEARtoCENTURY() {
+
 let year = prompt("Enter Year");
     let century = year / 100 + 1;
-    alert("the century is" + century);
+    alert("The century is" + century);
     Math.round(0.5);
 }
 
