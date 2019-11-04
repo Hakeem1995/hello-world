@@ -2,6 +2,10 @@
   background-image: url("cool.png");
 }
 
+a {
+  color: black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
