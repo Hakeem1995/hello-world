@@ -12,40 +12,68 @@ function thirdangle() {
 }
 
 
-// function YEARtoCENTURY() {
+function YEARtoCENTURY() {
 
-// let year = prompt("Enter Year");
-//     let century = year / 100 + 1;
-//     alert("The century is" + century);
-//     Math.round(0.5);
-// }
+let year = prompt("Enter Year");
+    let century = year / 100 + 1;
+    alert("The century is" + century);
+    Math.round(0.5);
+}
 
-// for (let i=0 ; i<101 ; i++ ){
-//    if(i%10==0 i%4==0 ) { 
-//    	 console.log("tenfour");
-//    	}
-//    	else if (i%4 ==0){
-//    		   console.log("four");
-//    		}
-//    		else if (i%10 == 0){
-//    			console.log("ten");
-//    		}
-// }
+for (let i=0 ; i<101 ; i++ ){
+   if(i%10==0 i%4==0 ) { 
+   	 console.log("tenfour");
+   	}
+   	else if (i%4 ==0){
+   		   console.log("four");
+   		}
+   		else if (i%10 == 0){
+   			console.log("ten");
+   		}
+}
 
-// function multiplesOfTenAndFour(){
-// 	for (let i = 0; i <= 100; i++){
-// 		if(i % 10 == 0 && i % 4 ==0) { 
-// 			console.log("tenfour");
-// 		   }
-// 		else if (i % 4 ==0){
-// 			console.log("four");
-// 		 }
-// 		else if (i%10 == 0){
-// 			console.log("ten");
-// 		}
+function multiplesOfTenAndFour(){
+	for (let i = 0; i <= 100; i++){
+		if(i % 10 == 0 && i % 4 ==0) { 
+			console.log("tenfour");
+		   }
+		else if (i % 4 ==0){
+			console.log("four");
+		 }
+		else if (i%10 == 0){
+			console.log("ten");
+		}
 		
-// 		else { 
-// 			console.log(i)
-// 		}
-// 	}
-// }
+		else { 
+			console.log(i)
+		}
+	}
+}
+
+
+function string_length(){
+	let string_input=prompt("say something")
+ 
+  alert(string_input.length);  
+}
+
+function string_length(string_input){
+ 
+  return(string_input.length);  
+}
+
+console.log(string_length("Hakeem"));
+
+
+
+function login(){
+  let userName = prompt("Username: ");
+  let password = prompt("Password: ");
+  if(userName=="Hakeem" && pasword=="LLL"){
+    alert("Welcome")
+  }
+  else{
+  alert("try a diffrent password");
+}
+}
+
