@@ -21,7 +21,7 @@ let year = prompt("Enter Year");
 }
 
 for (let i=0 ; i<101 ; i++ ){
-   if(i%10==0 i%4==0 ) { 
+   if(i%10==0 && i%4==0 ) { 
    	 console.log("tenfour");
    	}
    	else if (i%4 ==0){
@@ -52,17 +52,10 @@ function multiplesOfTenAndFour(){
 
 
 function string_length(){
-	let string_input=prompt("say something")
+	let string_input=prompt("say something");
  
   alert(string_input.length);  
 }
-
-function string_length(string_input){
- 
-  return(string_input.length);  
-}
-
-console.log(string_length("Hakeem"));
 
 
 
